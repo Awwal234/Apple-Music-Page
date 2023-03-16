@@ -24,6 +24,21 @@ main {
   font-family: 'SF Pro Text';
 }
 
+main::-webkit-scrollbar {
+  width: 3px;
+  background: transparent;
+}
+
+main::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: black;
+}
+
+main::-webkit-scrollbar-track {
+  width: 3px;
+  background: transparent;
+}
+
 html {
   height: 100%;
 }
